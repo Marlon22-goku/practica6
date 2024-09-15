@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    list-style: none; /*estiles de las listas*/ 
+}
+ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*tipo de la letra*/
+    font-size: 22px; /*tamaño de la letra*/
+    height: 60px;  /*Alatura de cado opcion de la lista*/
+}
+ul li a{
+    height: 60px; /*Altura*/
+    background-color: #333; /*color de fondo*/
+    display: block;
+    border-left: 10px solid rgb(8,96,179);
+    border-right: 5px solid rgb(144, 253, 111);
+    padding-left: 15px; /*separacion izquierda del texto */
+    text-decoration: none;
+    color: #bfe1f1;
+
+}
+ul li a:hover{
+    margin-left: 10px; /*separacion del lado izquierdo*/
+    color: #b9b7b7; /*color de la letra*/
+    background-color: #0b1741; /*color de fondo*/
+    box-shadow: 10px 10px 20px #000; /*sombra*/
+    transform: rotate(4deg); /*movimiento de roacion*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+td{
+    vertical-align: top;
+}
